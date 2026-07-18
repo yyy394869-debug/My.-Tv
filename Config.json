@@ -1,0 +1,19 @@
+{
+  "system_intelligence": {
+    "version": "SUPER_SYSTEM_V1",
+    "primary_logic": {
+      "use_firebase_cache": true,
+      "auto_filter_dead_links": true,
+      "priority_load": "firebase_fast_db"
+    }
+  },
+  "database_pointers": {
+    "firebase_endpoint": "https://urislamtv-default-rtdb.asia-southeast1.firebasedatabase.app/channels.json",
+    "backup_api": "https://iptv-org.github.io/api/channels.json"
+  },
+  "channel_rules": {
+    "bangla_count": 300,
+    "indian_sports_enabled": true,
+    "strict_no_dead_links": true
+  }
+}
